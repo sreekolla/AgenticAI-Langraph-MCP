@@ -1,0 +1,14 @@
+[project]
+name = "agenticai-langraph-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.0.1",
+    "langchain-groq>=1.0.0",
+    "langchain-tavily>=0.2.12",
+    "langgraph>=1.0.1",
+    "langsmith>=0.4.37",
+    "python-dotenv>=1.1.1",
+]
